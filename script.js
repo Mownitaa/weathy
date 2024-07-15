@@ -19,3 +19,10 @@ document.querySelector(".city").innerHTML = data.name;
 searchBtn.addEventListener("click",()=>{
     checkWeather(input.value);
 })
+
+input.addEventListener("keyup", e=>{
+    if(e.keyCode === 13){
+       checkWeather(e.target.value);
+       e.target.value="";
+    }
+})
