@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initialState-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -10,12 +10,21 @@
  <div class="card">
     <div id="card">
         <div class="search">
-            <input type="search" placeholder="Enter City Name" cursor="pointer" spellcheck="false"/>
-            
+            <input type="search" placeholder="Enter City Name" cursor="pointer" spellcheck="false"/>         
             <button><img src="/images/search-icon.PNG"/></button> 
                      
         </div>
         <p id="info"></p>
+    </div>
+    <div class="initialState">
+        <img src = "/images/weather.jfif"/>
+<div class="loader">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+</div>
     </div>
     <div class="weather">
         <img src="images/clear-weather.avif" class="weather-icon"/>

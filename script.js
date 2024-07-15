@@ -15,7 +15,8 @@ console.log(data);
     document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°c";
     document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
     document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
-
+    document.querySelector(".weather").style.display="block";
+    document.querySelector(".initialState").style.display="none";
 
     if(data.weather[0].main == "Clouds"){
         weatherIcon.src = "images/cloudy-weather.jpg"
