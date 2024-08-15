@@ -61,7 +61,6 @@ box-shadow: 3;
 .initialState img{
     width: 100%;
 }
-
 .error{
     display: none;
 }
@@ -95,7 +94,7 @@ box-shadow: 3;
 }
 
 .dot:nth-child(1){
-    background-color: rgb(134, 182, 182);
+    background-color: rgb(231, 125, 205);
     animation: preloader .7s ease-in-out alternate infinite;
 }
 .dot:nth-child(2){
@@ -103,11 +102,11 @@ box-shadow: 3;
     animation: preloader .7s ease-in-out alternate .3s infinite;
 }
 .dot:nth-child(3){
-    background-color: rgb(221, 247, 76);
+    background-color: rgb(231, 125, 205);
     animation: preloader .5s ease-in-out alternate .3s infinite;
 }
 .dot:nth-child(4){
-    background-color: rgb(134, 182, 182);
+    background-color: rgb(231, 125, 2052);
     animation: preloader .7s ease-in-out alternate .5s infinite;
 }
 .dot:nth-child(5){
